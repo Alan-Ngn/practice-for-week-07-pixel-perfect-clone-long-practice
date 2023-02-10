@@ -111,3 +111,6 @@ body {
 .boards__group{
     color: white
 }
+.twitch-logo >img {
+    width: 30px;
+}
