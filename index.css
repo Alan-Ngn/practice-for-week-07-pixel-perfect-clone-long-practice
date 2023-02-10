@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 20px;
+    background-color: black;
+
+  }
+.header-nav-container{
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white
+}
+/* #search{
+    color: grey;
+} */
+#search > input {
+    /* border-style: none;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; */
+
+    background-color: grey;
+    color:white;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+#search > ::placeholder {
+    color: white;
+}
+.right-button, .twitch-logo{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.sidebar{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    max-width: 14%;
+    max-height: max-content;
+    background-color: rgb(44, 42, 42);
+    padding: 5px;
+
+
+}
+.streamers{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    gap: 5px;
+
+
+}
+.streamers > button{
+    text-align: justify;
+    background-color: transparent;
+    border:none;
+    color: white;
+
+
+
+}
+.streamers > h1 {
+    font-size: 20px;
+}
+.streamers > h2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.content_area {
+    display:flex;
+}
+
+
+
+.promoted-streamers{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    margin: auto;
+
+
+
+}
+.beagle_caption{
+    display:flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: center;
+    background-color: rgb(27, 26, 26);
+}
+
+.content_area{
+    margin-top: 5px;
+    background-image: url('pizza_hut.jpeg');
+    background-position: center;
+    background-size:cover;
+}
+.beagle{
+
+    background-size: 3000px;
+}
+.boards__group{
+    color: white
+}
